@@ -1,0 +1,33 @@
+*{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6 span{
+    color: #242424;
+    text-align: center;
+    line-height: 1.25;
+}
+p {
+    line-height: 1.5;
+    font-size: 16px;
+}
+li{
+    list-style-type: none;
+}
+/* NAVIGATION BAR */
+
+nav{
+    height: 100px;
+    max-width: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+nav__link--list{
+    display: flex;
+
+}
